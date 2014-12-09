@@ -1,5 +1,5 @@
 # Start with an Ubuntu 14.04 image that has ruby 2.1.2
-FROM litaio/ruby:2.1.2
+FROM ruby:2.1
 
 # Install dependencies
 RUN apt-get -y install libpq-dev
